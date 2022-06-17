@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Info block snapshots: capacity 1`] = `
+<InfoBlock
+  color=""
+  content={
+    Object {
+      "data": "20/100",
+      "minWidth": "4em",
+    }
+  }
+  icon={[Function]}
+  tooltip="Capacity usage: total demand / total capacity"
+/>
+`;
+
+exports[`Info block snapshots: capacity 2`] = `
+<InfoBlock
+  color="var(--pf-global--danger-color--200)"
+  content={
+    Object {
+      "data": "20/10",
+      "minWidth": "4em",
+    }
+  }
+  icon={[Function]}
+  tooltip="Capacity usage: total demand / total capacity"
+/>
+`;
+
+exports[`Info block snapshots: distance 1`] = `
+<InfoBlock
+  content={
+    Object {
+      "data": "3h 56m 11s",
+      "minWidth": "6.8em",
+    }
+  }
+  icon={[Function]}
+  tooltip="Total driving travel time spent by all vehicles"
+/>
+`;
+
+exports[`Info block snapshots: generic 1`] = `
+<Tooltip
+  appendTo={[Function]}
+  aria="describedby"
+  boundary="window"
+  className=""
+  content="test tooltip"
+  distance={15}
+  enableFlip={true}
+  entryDelay={500}
+  exitDelay={500}
+  flipBehavior={
+    Array [
+      "top",
+      "right",
+      "bottom",
+      "left",
+      "top",
+      "right",
+      "bottom",
+    ]
+  }
+  id=""
+  isAppLauncher={false}
+  isContentLeftAligned={false}
+  isVisible={false}
+  maxWidth="18.75rem"
+  position="bottom"
+  tippyProps={Object {}}
+  trigger="mouseenter focus"
+  zIndex={9999}
+>
+  <Flex
+    breakpointMods={
+      Array [
+        Object {
+          "modifier": "space-items-sm",
+        },
+      ]
+    }
+  >
+    <FlexItem>
+      <PlusIcon
+        color="currentColor"
+        noVerticalAlign={false}
+        size="md"
+        title={null}
+      />
+    </FlexItem>
+    <FlexItem
+      style={
+        Object {
+          "minWidth": "10",
+          "textAlign": "right",
+        }
+      }
+    >
+      test content
+    </FlexItem>
+  </Flex>
+</Tooltip>
+`;
+
+exports[`Info block snapshots: vehicles 1`] = `
+<InfoBlock
+  icon={[Function]}
+  tooltip="Vehicles"
+/>
+`;
+
+exports[`Info block snapshots: visits 1`] = `
+<InfoBlock
+  content={
+    Object {
+      "data": 300,
+      "minWidth": "2em",
+    }
+  }
+  icon={[Function]}
+  tooltip="Number of visits"
+/>
+`;
