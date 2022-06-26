@@ -111,9 +111,7 @@ export class Route extends React.Component<RouteProps, RouteState> {
     return (
       <>
         <TextContent>
-          {routes.map(route=>
-                    <Text component={TextVariants.h5}>{route.routeDistance} m</Text>
-          )}
+          {routes[selectedRouteId]?.vehicle.name} distance is :  {routes[selectedRouteId]?.routeDistance} m
         </TextContent>
         <Split gutter={GutterSize.md}>
           <SplitItem
