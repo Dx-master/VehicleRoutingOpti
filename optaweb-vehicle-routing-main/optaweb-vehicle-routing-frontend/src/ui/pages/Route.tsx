@@ -141,12 +141,14 @@ export class Route extends React.Component<RouteProps, RouteState> {
                 )}
               </FormSelect>
             </Form>
-            <LocationList
-              depot={depot}
-              visits={filteredVisits}
-              removeHandler={removeHandler}
-              selectHandler={this.onSelectLocation}
-            />
+            <div style={{ width: '100%', height: 'calc(100vh - 176px)', overflowY:'scroll' }}>
+              <LocationList
+                depot={depot}
+                visits={filteredVisits}
+                removeHandler={removeHandler}
+                selectHandler={this.onSelectLocation}
+              />
+            </div>
           </SplitItem>
           <SplitItem isFilled>
             <RouteMap
